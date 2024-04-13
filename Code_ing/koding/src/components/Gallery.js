@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Gallery() {
   return (
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 m-4">
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 p-10 pt-0 dark:bg-gray-900">
     <div>
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt=""/>
     </div>

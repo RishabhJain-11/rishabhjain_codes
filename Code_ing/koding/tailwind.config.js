@@ -3,24 +3,24 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-  darkMode: 'class', // Moved darkMode outside of the theme object
   theme: {
+    darkMode: 'class', // Moved darkMode outside of the theme object
     extend: {
-      colors: {
-        primary: {
-          "50": "#eff6ff",
-          "100": "#dbeafe",
-          "200": "#bfdbfe",
-          "300": "#93c5fd",
-          "400": "#60a5fa",
-          "500": "#3b82f6",
-          "600": "#2563eb",
-          "700": "#1d4ed8",
-          "800": "#1e40af",
-          "900": "#1e3a8a",
-          "950": "#172554"
+      "colors": {
+        "primary": {
+            "50": "#ffebee",
+            "100": "#ffcdd2",
+            "200": "#ef9a9a",
+            "300": "#e57373",
+            "400": "#ef5350",
+            "500": "#f44336",
+            "600": "#e53935",
+            "700": "#d32f2f",
+            "800": "#c62828",
+            "900": "#b71c1c",
+            "950": "#8b0000"
         }
-      },
+    },
       fontFamily: {
         'body': [
           'Inter',
