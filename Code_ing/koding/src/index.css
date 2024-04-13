@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'KodeMode';
+    src: url('./fonts/KodeMono-VariableFont_wght.ttf');
+}
+body{
+    font-family: 'KodeMode';
+}
+
+html{
+    font-size: larger;
+}
+
+.blue-logo {
+    filter: brightness(0) invert(0.8) sepia(1) hue-rotate(190deg) saturate(5);
+  }
