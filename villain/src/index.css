@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  /* font-family: 'Grotesk'; */
+  font-family: 'Kode';
+  /* src: url('./fonts/SpaceGrotesk-VariableFont_wght.ttf'); */
+  src: url('./fonts/KodeMono-VariableFont_wght.ttf');
+}
+body{
+  /* font-family: 'Grotesk'; */
+  font-family: 'Kode';
+}
+
+::selection {
+  background: #facc15;
+  color: black;
+}

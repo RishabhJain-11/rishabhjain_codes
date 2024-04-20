@@ -8,25 +8,28 @@ import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Header from './components/Headers';
 import Hero from './components/Hero';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-    <Header/>
+    <Navbar/>
+    {/* <Header/>
     <Hero/>
-    <Features/>
+    <Features/> */}
     {/* <hr class="w-48 h-1 mx-auto my-4 bg-gray-900 border-0 rounded md:my-10 dark:bg-white"></hr> */}
-    <Banner/>
+    {/* <Banner/> */}
     {/* <hr class="w-48 h-1 mx-auto my-4 bg-gray-900 border-0 rounded md:my-10 dark:bg-white"></hr> */}
-    <Gallery/>
+    {/* <Gallery/> */}
     {/* <hr class="w-48 h-1 mx-auto my-4 bg-gray-900 border-0 rounded md:my-10 dark:bg-white"></hr> */}
-    <Blog/>
+    {/* <Blog/> */}
     {/* <hr class="w-48 h-1 mx-auto my-4 bg-gray-900 border-0 rounded md:my-10 dark:bg-white"></hr> */}
-    <FAQ/>
+    {/* <FAQ/> */}
     {/* <hr class="w-48 h-1 mx-auto my-4 bg-gray-900 border-0 rounded md:my-10 dark:bg-white"></hr> */}
-    <CTA/>
+    {/* <CTA/> */}
     {/* <hr class="w-48 h-1 mx-auto my-4 bg-gray-900 border-0 rounded md:my-10 dark:bg-white"></hr> */}
-    <Footer/>
+    {/* <Footer/> */}
+
     </>
   );
 }
