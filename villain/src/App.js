@@ -3,14 +3,19 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Blogs from './components/Blogs';
 import AboutMe from './components/AboutMe';
+import Arsenal from './components/Arsenal';
+import Merchandise from './components/Merchandise';
+import Gigs from './components/Gigs';
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Blogs></Blogs>
+      {/* <Blogs></Blogs> */}
       {/* <AboutMe></AboutMe> */}
-
+      {/* <Arsenal></Arsenal> */}
+      {/* <Merchandise></Merchandise> */}
+      <Gigs></Gigs>
       <Footer></Footer>
     </>
   );
